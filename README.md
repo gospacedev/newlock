@@ -1,13 +1,13 @@
 # password-generator
 
-### A GUI password generator in Go using fyne GUI library
+> A GUI password generator in Go using fyne GUI library
 
-### To install fyne dependencies:
+To install fyne dependencies:
 ```cmd
 go get fyne.io/fyne/v2
 ```
 
-### To run:
+To run:
 ```cmd
 go run .
 ```
