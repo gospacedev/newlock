@@ -1,6 +1,6 @@
 # password-generator
 
-> A GUI password generator in Go using fyne GUI library
+> I used the the fyne library to build a gui  password generator
 
 To install fyne dependencies:
 ```cmd
