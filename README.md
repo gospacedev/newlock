@@ -1,6 +1,6 @@
 # password-generator
 
-> I used the the fyne library to build a gui  password generator
+I used the the fyne library to build a gui  password generator
 
 To install fyne dependencies:
 ```cmd
