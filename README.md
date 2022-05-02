@@ -1,5 +1,5 @@
 # newlock
-[![MIT Licence](https://badges.frapsoft.com/os/mit/mit.png?v=103)](https://opensource.org/licenses/mit-license.php)
+[![MIT Licence](https://badges.frapsoft.com/os/mit/mit.png?v=103)](https://opensource.org/licenses/mit-license.php) [![Donate Bitcoin]https://img.shields.io/badge/Donate-Bitcoin-yellow](https://www.blockchain.com/btc/address/1JeXm9NT8aTsznF9nWBv3geN6ZXhipxo8J)
 
 Need a new passowrd?
 
