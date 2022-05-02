@@ -1,10 +1,9 @@
-# password-generator
+# newlock
 
-I used the the fyne library to build a gui password generator
-
-To install fyne dependencies:
+Install fyne dependencies:
 ```cmd
 go get fyne.io/fyne/v2
+github.com/sethvargo/go-password
 ```
 
 To run:
