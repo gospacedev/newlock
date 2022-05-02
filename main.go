@@ -37,6 +37,10 @@ func main() {
 		//The number of available digits and symbols can be changes
 		//support shorter passwords but it's still safe and random
 		passwordLength,_ := strconv.Atoi(input.Text)
+		
+		if passwordLength == 0 {
+		    passwordLength = 8
+		}
 
 		n := passwordLength / 2
 
