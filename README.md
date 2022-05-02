@@ -18,3 +18,6 @@ To package:
 ```
 fyne package -icon assets/orange-lock.png
 ```
+
+### For Coffee
+Bitcoin: 1JeXm9NT8aTsznF9nWBv3geN6ZXhipxo8J
