@@ -1,5 +1,7 @@
 # newlock
-Newlock is a lightweight password generator
+Need a new passowrd?
+
+Newlock is a lightweight password generator for better security
 
 ![Screenshot](https://user-images.githubusercontent.com/83633399/166175068-4c5210eb-9c51-48d2-822f-c843c1bbf649.png)
 
