@@ -3,6 +3,8 @@ Newlock is a lightweight password generator
 
 ![Screenshot](https://user-images.githubusercontent.com/83633399/166175068-4c5210eb-9c51-48d2-822f-c843c1bbf649.png)
 
+Download Executable:
+[Download Newlock](https://github.com/gocrazygh/newlock/releases/download/v0.1.0/Newlock.zip)
 
 ## Usage
 Install dependencies:
