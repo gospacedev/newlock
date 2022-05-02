@@ -1,15 +1,13 @@
 # newlock
+Lightweight password generator
 
-Install fyne dependencies:
-```cmd
+## Usage
+Install dependencies:
+```
 go get fyne.io/fyne/v2
-github.com/sethvargo/go-password
+go get github.com/sethvargo/go-password
 ```
-
-To run:
-```cmd
-go run .
+To package:
 ```
-## TODO
-
-Update math/rand to crypto/rand for better randomization
+fyne package -icon assets/orange-lock.png
+```
