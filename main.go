@@ -43,6 +43,10 @@ func main() {
 		}
 
 		n := passwordLength / 2
+		
+		if n > 10 {
+		    n = 10
+		}
 
 		text.Text = password.MustGenerate(passwordLength, n, n, false, false)
 	
