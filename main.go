@@ -45,12 +45,17 @@ func main() {
 	
 		text.Refresh()
 	})
+	
+	copybtn := widget.NewButtonWithIcon("Copy Password", theme.ContentCopyIcon(), func() {
+	    w.Clipboard().SetContent(text.Text)
+	})
 
 	w.SetContent(container.NewVBox(
 		title,
 		input,
 		text,
 		btn,
+		copybtn,
 	))
 
 	w.Resize(fyne.NewSize(375, 300))
