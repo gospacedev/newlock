@@ -5,7 +5,7 @@ Need a new passowrd?
 
 Newlock is a lightweight password generator for better security
 
-![Screenshot](https://user-images.githubusercontent.com/83633399/166175068-4c5210eb-9c51-48d2-822f-c843c1bbf649.png)
+![Screenshot__226_-removebg-preview](https://user-images.githubusercontent.com/83633399/166412202-8d2d938d-5ebf-4277-a6b7-6a9694094437.png)
 
 Download Executable:
 [Download Newlock](https://github.com/gocrazygh/newlock/releases/download/v0.1.0/Newlock.zip)
