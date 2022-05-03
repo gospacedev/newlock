@@ -34,21 +34,14 @@ func main() {
 	text.TextSize = 16
 
 	btn := widget.NewButton("Generate", func() {
-		//The number of available digits and symbols can be changes
-		//support shorter passwords but it's still safe and random
 		passwordLength,_ := strconv.Atoi(input.Text)
-		
-		if passwordLength == 0 {
-		    passwordLength = 8
+
+		//Avoids length errors
+		if passwordLength <= 10 || passwordLength >= 63{
+			passwordLength = 10
 		}
 
-		n := passwordLength / 2
-		
-		if n > 10 {
-		    n = 10
-		}
-
-		text.Text = password.MustGenerate(passwordLength, n, n, false, false)
+		text.Text = password.MustGenerate(passwordLength, 5, 5, false, false)
 	
 		text.Refresh()
 	})
