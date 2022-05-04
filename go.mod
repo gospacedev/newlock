@@ -1,4 +1,4 @@
-module Newlock
+module github.com/gocrazygh/newlock
 
 go 1.18
 
