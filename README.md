@@ -5,6 +5,8 @@ Need a new passowrd?
 
 Newlock is a lightweight password generator for better security
 
+Bitcoin donations are welcome: `1J2aMYUnkPXkzEYJUaZY5AKRGZU459NUrG`
+
 ![Screenshot](https://user-images.githubusercontent.com/83633399/166413118-7d90a731-501d-447f-8f39-6babcde12184.png)
 
 ## Usage
