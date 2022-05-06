@@ -24,4 +24,4 @@ fyne package -os linux -icon assets/orange-lock.png
 fyne package -os windows -icon assets/orange-lock.png
 ```
 
-Support Me: [Donate Bitcoin to gocrazygh](https://gocrazygh.github.io/gocrazygh/donate)
+Donate Bitcoin: 1J2aMYUnkPXkzEYJUaZY5AKRGZU459NUrG
