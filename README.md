@@ -3,9 +3,9 @@
 
 Newlock is a lightweight GUI application that generates truly random passwords easily
 
-Donate Bitcoin: 1J2aMYUnkPXkzEYJUaZY5AKRGZU459NUrG
-
 ![Screenshot](https://user-images.githubusercontent.com/83633399/166413118-7d90a731-501d-447f-8f39-6babcde12184.png)
+
+Donate Bitcoin: `1J2aMYUnkPXkzEYJUaZY5AKRGZU459NUrG`
 
 ## Usage
 Newlock uses the the Fyne library for it's GUI and sethvargo/go-password for generating the passwords
