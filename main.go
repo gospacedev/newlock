@@ -19,7 +19,7 @@ func main() {
 
 	w := a.NewWindow("Newlock")
 
-	r, _ := fyne.LoadResourceFromPath("assets/orange-lock.png")
+	r, _ := fyne.LoadResourceFromPath("Icon.png")
 
 	w.SetIcon(r)
 
