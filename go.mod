@@ -8,6 +8,7 @@ require (
 )
 
 require (
+	fyne.io/fyne v1.4.3
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/fredbi/uri v0.0.0-20181227131451-3dcfdacbaaf3 // indirect
 	github.com/fsnotify/fsnotify v1.4.9 // indirect
