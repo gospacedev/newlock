@@ -14,8 +14,9 @@ You can clone this repo and package it:
 fyne package
 ```
 
-And for specific os:
+And for specific OSes:
 ```
-fyne package -os linux -icon assets/orange-lock.png
-fyne package -os windows -icon assets/orange-lock.png
+fyne package -os linux
+fyne package -os windows
+fyne package -os darwin
 ```
