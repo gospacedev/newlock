@@ -11,7 +11,7 @@ If you want to download the executable: [Newlock-0.1.2](https://github.com/gocra
 
 You can clone this repo and package it:
 ```
-fyne package -icon assets/orange-lock.png
+fyne package
 ```
 
 And for specific os:
