@@ -17,6 +17,5 @@ fyne package
 And for specific OSes:
 ```
 fyne package -os linux
-fyne package -os windows
 fyne package -os darwin
 ```
