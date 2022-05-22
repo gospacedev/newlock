@@ -4,6 +4,7 @@ import (
 	"image/color"
 	"strconv"
 
+	"fyne.io/fyne/theme"
 	"fyne.io/fyne/v2"
 	"fyne.io/fyne/v2/app"
 	"fyne.io/fyne/v2/canvas"
@@ -13,15 +14,14 @@ import (
 	"github.com/sethvargo/go-password/password"
 )
 
-
 func main() {
 	a := app.New()
 
 	w := a.NewWindow("Newlock")
 
-	r, _ := fyne.LoadResourceFromPath("Icon.png")
-
-	w.SetIcon(r)
+	//command to generate bundled.go
+	//fyne bundle Icon.png >> bundled.go
+	w.SetIcon(resourceIconPng)
 
 	title := canvas.NewText("Newlock Password Generator", color.White)
 
@@ -34,20 +34,20 @@ func main() {
 	text.TextSize = 16
 
 	btn := widget.NewButton("Generate", func() {
-		passwordLength,_ := strconv.Atoi(input.Text)
+		passwordLength, _ := strconv.Atoi(input.Text)
 
 		//Avoids length errors
-		if passwordLength <= 10 || passwordLength >= 63{
+		if passwordLength <= 10 || passwordLength >= 63 {
 			passwordLength = 10
 		}
 
 		text.Text = password.MustGenerate(passwordLength, 5, 5, false, false)
-	
+
 		text.Refresh()
 	})
-	
+
 	copybtn := widget.NewButtonWithIcon("Copy Password", theme.ContentCopyIcon(), func() {
-	    w.Clipboard().SetContent(text.Text)
+		w.Clipboard().SetContent(text.Text)
 	})
 
 	w.SetContent(container.NewVBox(
