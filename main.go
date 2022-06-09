@@ -4,11 +4,11 @@ import (
 	"image/color"
 	"strconv"
 
-	"fyne.io/fyne/theme"
 	"fyne.io/fyne/v2"
 	"fyne.io/fyne/v2/app"
 	"fyne.io/fyne/v2/canvas"
 	"fyne.io/fyne/v2/container"
+	"fyne.io/fyne/v2/theme"
 	"fyne.io/fyne/v2/widget"
 
 	"github.com/sethvargo/go-password/password"
@@ -20,7 +20,7 @@ func main() {
 	w := a.NewWindow("Newlock")
 
 	//command to generate bundled.go
-	//fyne bundle Icon.png >> bundled.go
+	//fyne bundle Icon.png > bundled.go
 	w.SetIcon(resourceIconPng)
 
 	title := canvas.NewText("Newlock Password Generator", color.White)
