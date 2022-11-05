@@ -1,7 +1,7 @@
 # Newlock
 [![MIT Licence](https://img.shields.io/badge/License-MIT-blue)](https://opensource.org/licenses/mit-license.php)
 
-Newlock is a lightweight application that generates passwords with high entropy.
+Newlock is a GUI application that generates secure and random passwords.
 
 ![Screenshot](https://user-images.githubusercontent.com/83633399/166413118-7d90a731-501d-447f-8f39-6babcde12184.png)
 
