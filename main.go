@@ -25,7 +25,7 @@ func main() {
 	//fyne bundle Icon.png > bundled.go
 	w.SetIcon(assets.Icon)
 
-	title := canvas.NewText("Newlock Password Generator", color.White)
+	//title := canvas.NewText("Newlock Password Generator", color.White)
 
 	input := widget.NewEntry()
 
@@ -81,7 +81,6 @@ func main() {
 	})
 
 	w.SetContent(container.NewVBox(
-		title,
 		input,
 		toggleUpperCase,
 		togglAllowRepeat,
