@@ -1,0 +1,8 @@
+Website = "github.com/gospacedev/newlock"
+
+[Details]
+Icon = "Icon.png"
+Name = "Newlock"
+ID = "com.github.gospacedev.newlock"
+Version = "1.0.0"
+Build = 4
