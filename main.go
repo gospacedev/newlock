@@ -29,7 +29,7 @@ func main() {
 
 	input := widget.NewEntry()
 
-	input.SetPlaceHolder("Enter password length")
+	input.SetPlaceHolder("Enter Password Length")
 
 	var isUpperCase bool
 
@@ -43,6 +43,18 @@ func main() {
 
 	toggleUpperCase.Checked = true
 
+	var isAllowRepeat bool
+
+	togglAllowRepeat := widget.NewCheck("Allow Reapeating Charcters", func(value bool) {
+		if !value {
+			isAllowRepeat = true
+		} else if value{
+			isAllowRepeat = false
+		}
+	})
+
+	togglAllowRepeat.Checked = true
+
 	text := canvas.NewText("", color.White)
 
 	text.TextSize = 16
@@ -50,12 +62,16 @@ func main() {
 	btn := widget.NewButton("Generate", func() {
 		passwordLength, _ := strconv.Atoi(input.Text)
 
-		//Avoids length errors
-		if passwordLength <= 10 || passwordLength >= 63 {
-			passwordLength = 10
+		if passwordLength == 0{
+			passwordLength = 30
 		}
 
-		text.Text = password.MustGenerate(passwordLength, 5, 5, isUpperCase, false)
+		//the default passwword length is 20 to avoid password length errors
+		if passwordLength <= 10 || passwordLength >= 65 {
+			passwordLength = 30
+		}
+
+		text.Text = password.MustGenerate(passwordLength, 10, 10, isUpperCase, isAllowRepeat)
 
 		text.Refresh()
 	})
@@ -68,12 +84,13 @@ func main() {
 		title,
 		input,
 		toggleUpperCase,
+		togglAllowRepeat,
 		text,
 		btn,
 		copybtn,
 	))
 
-	w.Resize(fyne.NewSize(375, 300))
+	w.Resize(fyne.NewSize(400, 300))
 
 	w.ShowAndRun()
 
