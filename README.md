@@ -1,4 +1,5 @@
 # Newlock
+[![Go](https://github.com/gospacedev/newlock/actions/workflows/go.yml/badge.svg)](https://github.com/gospacedev/newlock/actions/workflows/go.yml)
 [![MIT Licence](https://img.shields.io/badge/License-MIT-blue)](https://opensource.org/licenses/mit-license.php)
 
 Newlock is a cross-platform GUI application that generates secure and random passwords.
