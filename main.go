@@ -25,8 +25,6 @@ func main() {
 	//fyne bundle Icon.png > bundled.go
 	w.SetIcon(assets.Icon)
 
-	//title := canvas.NewText("Newlock Password Generator", color.White)
-
 	input := widget.NewEntry()
 
 	input.SetPlaceHolder("Enter Password Length")
