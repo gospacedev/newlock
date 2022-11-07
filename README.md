@@ -4,7 +4,7 @@
 
 Newlock is a cross-platform GUI application that generates secure and random passwords.
 
-![Screenshot__192_-removebg-preview](https://user-images.githubusercontent.com/83633399/200332898-d163730f-9b90-433e-807e-1b8e6faabd88.png)
+![Screenshot](https://user-images.githubusercontent.com/83633399/200332898-d163730f-9b90-433e-807e-1b8e6faabd88.png)
 
 ## Usage
 First you need [Fyne](https://github.com/fyne-io/fyne) installed, then clone this repository and compile it:
