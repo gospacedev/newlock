@@ -31,6 +31,18 @@ func main() {
 
 	input.SetPlaceHolder("Enter password length")
 
+	var isUpperCase bool
+
+	toggleUpperCase := widget.NewCheck("Upper Case Letters", func(value bool) {
+		if !value {
+			isUpperCase = true
+		} else if value{
+			isUpperCase = false
+		}
+	})
+
+	toggleUpperCase.Checked = true
+
 	text := canvas.NewText("", color.White)
 
 	text.TextSize = 16
@@ -43,7 +55,7 @@ func main() {
 			passwordLength = 10
 		}
 
-		text.Text = password.MustGenerate(passwordLength, 5, 5, false, false)
+		text.Text = password.MustGenerate(passwordLength, 5, 5, isUpperCase, false)
 
 		text.Refresh()
 	})
@@ -55,6 +67,7 @@ func main() {
 	w.SetContent(container.NewVBox(
 		title,
 		input,
+		toggleUpperCase,
 		text,
 		btn,
 		copybtn,
